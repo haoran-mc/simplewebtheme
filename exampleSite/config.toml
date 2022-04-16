@@ -1,0 +1,28 @@
+title = "Example Site For Simple Web Theme"
+baseURL = "https://example.com"
+languageCode = "en-us"
+theme = "simplewebtheme"
+themesDir = "./themes"
+
+[params]
+headerImage = "/img/header.svg"
+
+[menu]
+
+[[menu.main]]
+title = "wiki"
+name = "the wikis"
+url = "/wiki"
+weight = 1
+
+[[menu.main]]
+title = "posts"
+name = "all posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+title = "about"
+name = "about me"
+url = "/about"
+weight = 3
