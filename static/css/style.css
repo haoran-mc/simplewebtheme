@@ -1,5 +1,5 @@
 html {
-    zoom: 0.575;
+    zoom: 0.72;
 }
 
 body {
@@ -110,12 +110,12 @@ td {
 
 @media (min-width: 699px) {
     #content {
-        width: 500px;
+        width: 620px;
         overflow-x: visible;
     }
 
     img {
-        max-width: 500px;
+        max-width: 620px;
     }
 
     footer li {

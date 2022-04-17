@@ -4,25 +4,22 @@ languageCode = "en-us"
 theme = "simplewebtheme"
 themesDir = "./themes"
 
-[params]
-headerImage = "https://haoran_mc.gitee.io/ogmc/img/header.svg"
-
 [menu]
 
 [[menu.main]]
 title = "wiki"
 name = "the wikis"
-url = "/ogmc/wiki/index.html"
+url = "./wiki"
 weight = 1
 
 [[menu.main]]
 title = "posts"
 name = "all posts"
-url = "/ogmc/posts/index.html"
+url = "."
 weight = 2
 
 [[menu.main]]
 title = "about"
 name = "about me"
-url = "/ogmc/about/index.html"
+url = "./about"
 weight = 3
