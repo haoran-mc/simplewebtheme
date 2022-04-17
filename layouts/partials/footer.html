@@ -1,14 +1,12 @@
-<footer>
-  <hr />
-  <ul>
-    {{ range .Site.Menus.main }}
-    <li>
-      <a href={{ .URL }}>{{ .Title }}</a>
-    </li>
-    {{ end }}
-
-    <li>
-      <em id="updated">Updated: {{ now.Format "January 2, 2006" }}</em>
-    </li>
-  </ul>
-</footer>
+{{if .IsHome}}
+  <footer>
+    <hr />
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href={{ .URL }}>{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </footer>
+{{end}}

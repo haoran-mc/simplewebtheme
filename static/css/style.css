@@ -1,9 +1,9 @@
 html {
-    zoom: 0.8;
+    zoom: 0.575;
 }
 
 body {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 h2 {
@@ -11,49 +11,49 @@ h2 {
 }
 
 #content {
-  min-height: 100vh;
-  padding: 1em;
-  overflow-x: scroll;
+    min-height: 100vh;
+    padding: 1em;
+    overflow-x: scroll;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 svg {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 footer ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 footer li {
-  margin: 0;
-  display: inline;
-  padding: 2px 3px;
+    margin: 0;
+    display: inline;
+    padding: 2px 3px;
 }
 
 footer li em {
-  margin: 0;
-  display: block;
-  padding: 2px 3px;
+    margin: 0;
+    display: block;
+    padding: 2px 3px;
 }
 
 
 blockquote {
-  margin-left: 0.75em;
-  color: #3b3b3b;
-  font-size: 95%;
+    margin-left: 0.75em;
+    color: #3b3b3b;
+    font-size: 95%;
 }
 
 pre,
 code {
-  overflow-x: scroll;
-  padding-bottom: 25px;
-  color: #3b3b3b;
-  font-size: 95%;
+    overflow-x: scroll;
+    padding-bottom: 25px;
+    color: #3b3b3b;
+    font-size: 95%;
 }
 
 table {
@@ -63,17 +63,17 @@ table {
 }
 
 th {
-  text-align: left;
-  white-space: nowrap;
-  padding: 3px 6px;
-  background: #eaeaea;
-  border: 1px solid #bdbdbd;
+    text-align: left;
+    white-space: nowrap;
+    padding: 3px 6px;
+    background: #eaeaea;
+    border: 1px solid #bdbdbd;
 }
 
 td {
-  white-space: nowrap;
-  border: 1px solid #bdbdbd;
-  padding: 5px 10px;
+    white-space: nowrap;
+    border: 1px solid #bdbdbd;
+    padding: 5px 10px;
 }
 
 .post-header h2 {
@@ -81,16 +81,16 @@ td {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #282828;
-    color: #EEEEEE;
-  }
-  a {
-    color: #EEEEEE;
-  }
-  pre {
-      color: #d1d1d1
-  }
+    body {
+        background-color: #282828;
+        color: #EEEEEE;
+    }
+    a {
+        color: #EEEEEE;
+    }
+    pre {
+        color: #d1d1d1
+    }
 }
 
 
@@ -109,26 +109,26 @@ td {
 }
 
 @media (min-width: 699px) {
-  #content {
-    width: 500px;
-    overflow-x: visible;
-  }
+    #content {
+        width: 500px;
+        overflow-x: visible;
+    }
 
-  img {
-    max-width: 500px;
-  }
+    img {
+        max-width: 500px;
+    }
 
-  footer li {
-    display: inline;
-  }
+    footer li {
+        display: inline;
+    }
 
-  footer li em {
-      display: inline;
-  }
+    footer li em {
+        display: inline;
+    }
 
-  
-  #updated {
-    border-left: 1px solid #737373;
-    padding-left: 5px;
-  }
+
+    #updated {
+        border-left: 1px solid #737373;
+        padding-left: 5px;
+    }
 }
